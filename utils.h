@@ -1,5 +1,7 @@
 #pragma once
 
+#include <stdio.h>
+
 #ifdef __GNUC__
 #define eprintf(args...) fprintf(stderr, ##args)
 #else
